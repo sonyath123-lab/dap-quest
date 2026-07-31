@@ -6946,7 +6946,7 @@ pre {
 /* Remove sticky positioning if present */
 .selectStatusBanner {
   position: static;
-   display: flex;3  align-items: center;4  justify-content: space-between;
+   display: flex; align-items: center;  justify-content: space-between;
 }
 /* Clear dataset selection banner */
 .selectStatusBanner {
@@ -7044,19 +7044,19 @@ pre {
 /* Selected but not checked yet */
 .selectStatusBanner.selectedPend*ng {
   border-color: #93c5fd;
-  ba*kground: #eff6ff;
+  background: #eff6ff;
 }
 
 /* Correct */
 .selectStatusBanner.hasSelection*{
   border-color: #86efac;
-  backg*ound: #f0fdf4;
+  background: #f0fdf4;
 }
 
 /* Wrong */
 .selectStatusBanner.wrongSelecti*n {
   border-color: #fca5a5;
-  bac*ground: #fef2f2;
+  background: #fef2f2;
 }
 .topConfirmBtn {
   width: 100%;
